@@ -8,15 +8,15 @@ export default function MainPage() {
 
         <nav id="logo-navigation" className="flex" >
           <div className="w-1/2 flex items-center justify-center">
-            <img src={logoImagePath}/>
+            <img src={logoImagePath} className="h-24"/>
           </div>
           <div className="w-1/2">
             <div className="flex items-center h-full">
               <div className="w-full flex justify-around">
-                <button className="text-3xl">Home</button>
-                <button className="text-3xl">My Page</button>
-                <button className="text-3xl">Writer</button>
-                <button className="text-3xl">Employer</button>
+                <button className="text-2xl">Home</button>
+                <button className="text-2xl">My Page</button>
+                <button className="text-2xl">Writer</button>
+                <button className="text-2xl">Employer</button>
               </div>
             </div>
           </div>
