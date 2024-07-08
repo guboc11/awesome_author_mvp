@@ -7,6 +7,7 @@ export default function WriterPage() {
       <hr className="border-4 my-3 border-indigo-600"></hr>
 
       <div className="border-4 border-red-500 p-10 flex">
+
         <div className="border-4 border-yellow-500 w-3/5">
           <div className="border-4 border-green-500">
             <div className="border-4 border-blue-500 flex justify-between">
@@ -98,20 +99,52 @@ export default function WriterPage() {
                   <div>개발 총괄</div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+
         <div className="border-4 border-yellow-500 w-2/5 h-fit">
           <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500 h-32"></div>
-            <div className="border-4 border-blue-500 h-20"></div>
-            <div className="border-4 border-blue-500 h-20"></div>
-            <div className="border-4 border-blue-500 h-20"></div>
-            <div className="border-4 border-blue-500 h-20"></div>
+            <div className="border-4 border-blue-500">
+              <div className="flex items-center gap-3 p-5">
+                <img className="w-14 h-auto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+                <div>
+                  <p className="text-xl font-bold">Kenoz</p>
+                  <p>프로필 보기</p>
+                </div>
+              </div>
+            </div>
+            <div className="border-4 border-blue-500 p-5">
+              <p className="text-gray-400 font-bold">연락처</p>
+              <p className="font-bold">개인정보 비공개</p>
+            </div>
+            <div className="border-4 border-blue-500 p-5">
+              <p className="text-gray-400 font-bold">메일</p>
+              <p className="font-bold">nicksohn@naver.com</p>
+            </div>
+            <div className="border-4 border-blue-500 p-5">
+              <p className="text-gray-400 font-bold">한 줄 소개</p>
+            </div>
+            <div className="border-4 border-blue-500 p-5">
+              <p className="text-gray-400 font-bold">구직 상태</p>
+              <p className="font-bold">무직</p>
+            </div>
           </div>
           <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500 h-48"></div>
+            <div className="border-4 border-blue-500">
+              <div className="border-4 border-violet-500 h-32 flex gap-5">
+                <div className='p-3 h-full'>
+                  <div className="bg-gray-600 w-3 h-3"></div>
+                  <div className="border-2 border-gray-500 border-dashed w-0 h-4/6 m-auto my-1"></div>
+                  <div className="bg-gray-600 w-3 h-3"></div>
+                </div>
+                <div className="flex flex-col justify-between py-2">
+                  <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">기본 정보</div>
+                  <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">기본 정보</div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
