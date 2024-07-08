@@ -33,12 +33,12 @@ export default function MainPage() {
             <p className="text-xl text-center">기록으로 남겨보세요!</p>
           </div>
           <div className="text-white flex items-center justify-around">
-            <div className="border-2 bg-indigo-600 h-36 w-64 flex items-center justify-center">
-              <button className="text-2xl h-full w-full">작가로 시작하기</button>
-            </div>
-            <div className="border-2 bg-indigo-600 h-36 w-64 flex items-center justify-center">
-              <button className="text-2xl h-full w-full">의뢰인으로 시작하기</button>
-            </div>
+            <Link className="border-2 bg-indigo-600 h-36 w-64 flex items-center justify-center" to="/mypage/writer">
+              <p className="text-2xl">작가로 시작하기</p>
+            </Link>
+            <Link className="border-2 bg-indigo-600 h-36 w-64 flex items-center justify-center" to="/mypage/employer">
+              <p className="text-2xl">의뢰인으로 시작하기</p>
+            </Link>
           </div>
         </section>
 
