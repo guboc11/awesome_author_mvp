@@ -150,9 +150,13 @@ export default function WriterPage() {
       </div>
 
       <div className="border-4 border-red-500 p-10">
-        <div className="border-4 border-yellow-500 h-20">
+        <div className="border-4 border-yellow-500">
+            <div className="border-4 border-blue-500 py-10">
+              <p className="text-3xl font-bold">포트폴리오</p>
+            </div>
         </div>
-        <div className="border-4 border-yellow-500 h-96">
+        <div className="border-4 border-yellow-500 py-10">
+          <div className="border-4 border-black h-96"></div>
         </div>
       </div>
       
