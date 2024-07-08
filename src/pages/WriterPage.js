@@ -6,11 +6,11 @@ export default function WriterPage() {
 
       <hr className="border-4 my-3 border-indigo-600"></hr>
 
-      <div className="border-4 border-red-500 p-10 flex">
+      <div className="p-10 flex">
 
-        <div className="border-4 border-yellow-500 w-3/5">
-          <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500 flex justify-between">
+        <div className="w-3/5">
+          <div className="">
+            <div className="flex justify-between">
               <div className="ml-5 flex gap-1">
                 <p>아이콘</p>
                 <p>개발</p>
@@ -21,7 +21,7 @@ export default function WriterPage() {
                 <p>3일전</p>
               </div>
             </div>
-            <div className="border-4 border-blue-500 flex justify-between items-center">
+            <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <img className="w-20 h-auto rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
                 <div>
@@ -34,10 +34,10 @@ export default function WriterPage() {
                 <p className="text-2xl">저장</p>
               </div>
             </div>
-            <div className="border-4 border-blue-500 h-20">
+            <div className="h-20">
               <p className="text-xl font-bold">CJ 엔터테인먼트 드라마 작가 3년차, 웹드라마 '너와나' 대본 작가. 네이버 웹소설 공모전 우수상. 경희대 문예창작학과 졸업</p>
             </div>
-            <div className="border-4 border-blue-500 flex flex-wrap gap-2 ">
+            <div className="flex flex-wrap gap-2 ">
               <p className="p-1 bg-gray-100 rounded-full">#DataScience</p>
               <p className="p-1 bg-gray-100 rounded-full">#Flutter</p>
               <p className="p-1 bg-gray-100 rounded-full">#FastApi</p>
@@ -47,7 +47,7 @@ export default function WriterPage() {
               <p className="p-1 bg-gray-100 rounded-full">#AI</p>
               <p className="p-1 bg-gray-100 rounded-full">#ComputerVision</p>
             </div>
-            <div className="border-4 border-blue-500 flex py-3 items-center gap-3">
+            <div className="flex py-3 items-center gap-3">
               <button className="p-5 bg-blue-500 text-white rounded-full flex gap-3">
                 <p>매일 아이콘</p>
                 <p>매일</p>
@@ -58,12 +58,12 @@ export default function WriterPage() {
               </button>
             </div>
           </div>
-          <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500 py-10">
+          <div className="">
+            <div className="py-10">
               <p className="text-3xl font-bold">경력</p>
             </div>
-            <div className="border-4 border-blue-500">
-              <div className="bottom-4 border-violet-500 flex gap-5">
+            <div className="">
+              <div className="flex gap-5">
                 <div className='p-3'>
                   <div className="bg-blue-600 w-3 h-3 rounded-full"></div>
                   <div className="border-2 border-blue-500 w-0 h-full m-auto my-1"></div>
@@ -75,7 +75,7 @@ export default function WriterPage() {
                   <div>개발 총괄</div>
                 </div>
               </div>
-              <div className="bottom-4 border-violet-500 flex gap-5">
+              <div className="flex gap-5">
                 <div className='p-3'>
                   <div className="bg-blue-600 w-3 h-3 rounded-full"></div>
                   <div className="border-2 border-blue-500 w-0 h-full m-auto my-1"></div>
@@ -87,10 +87,9 @@ export default function WriterPage() {
                   <div>데이터 분석</div>
                 </div>
               </div>
-              <div className="bottom-4 border-violet-500 flex gap-5">
+              <div className="flex gap-5">
                 <div className='p-3'>
                   <div className="bg-blue-600 w-3 h-3 rounded-full"></div>
-                  {/* <div className="border-2 border-blue-500 w-0 h-full m-auto my-1"></div> */}
                 </div>
                 <div>
                   <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">2024.03.01-2024.07.01</div>
@@ -103,9 +102,9 @@ export default function WriterPage() {
           </div>
         </div>
 
-        <div className="border-4 border-yellow-500 w-2/5 h-fit">
-          <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500">
+        <div className="w-2/5 h-fit">
+          <div className="">
+            <div className="">
               <div className="flex items-center gap-3 p-5">
                 <img className="w-14 h-auto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
                 <div>
@@ -114,25 +113,25 @@ export default function WriterPage() {
                 </div>
               </div>
             </div>
-            <div className="border-4 border-blue-500 p-5">
+            <div className="p-5">
               <p className="text-gray-400 font-bold">연락처</p>
               <p className="font-bold">개인정보 비공개</p>
             </div>
-            <div className="border-4 border-blue-500 p-5">
+            <div className="p-5">
               <p className="text-gray-400 font-bold">메일</p>
               <p className="font-bold">nicksohn@naver.com</p>
             </div>
-            <div className="border-4 border-blue-500 p-5">
+            <div className="p-5">
               <p className="text-gray-400 font-bold">한 줄 소개</p>
             </div>
-            <div className="border-4 border-blue-500 p-5">
+            <div className="p-5">
               <p className="text-gray-400 font-bold">구직 상태</p>
               <p className="font-bold">무직</p>
             </div>
           </div>
-          <div className="border-4 border-green-500">
-            <div className="border-4 border-blue-500">
-              <div className="border-4 border-violet-500 h-32 flex gap-5">
+          <div className="">
+            <div className="">
+              <div className="h-32 flex gap-5">
                 <div className='p-3 h-full'>
                   <div className="bg-gray-600 w-3 h-3"></div>
                   <div className="border-2 border-gray-500 border-dashed w-0 h-4/6 m-auto my-1"></div>
@@ -149,13 +148,13 @@ export default function WriterPage() {
         </div>
       </div>
 
-      <div className="border-4 border-red-500 p-10">
-        <div className="border-4 border-yellow-500">
-            <div className="border-4 border-blue-500 py-10">
+      <div className="p-10">
+        <div className="">
+            <div className="py-10">
               <p className="text-3xl font-bold">포트폴리오</p>
             </div>
         </div>
-        <div className="border-4 border-yellow-500 py-10">
+        <div className="py-10">
           <div className="border-4 border-black h-96"></div>
         </div>
       </div>
