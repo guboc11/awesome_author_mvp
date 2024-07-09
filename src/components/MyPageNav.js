@@ -10,18 +10,18 @@ export default function MyPageNav() {
     <>
       <div className="w-[1024px] mx-auto">
 
-        <nav className="border-4 border-red-500 flex justify-between">
-          <div className="border-4 border-yellow-500 flex">
+        <nav className="flex justify-between">
+          <div className="flex">
             <Link to="/">
               <img src={logoImagePath} className="h-24"/>
             </Link>
             <IconButton size="large" edge="start" color="inherit" aria-label="menu" 
-              sx={{ mx: 2 }}
+              sx={{ mx: 2 , my: "auto"}}
             >
               <Menu />
             </IconButton>
           </div>
-          <div className="border-4 border-yellow-500 flex items-center">
+          <div className="flex items-center mr-10">
             <div className="w-full flex">
               <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link>
               <div className="h-full my-auto ml-2">
