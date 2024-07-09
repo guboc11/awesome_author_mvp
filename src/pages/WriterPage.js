@@ -7,6 +7,7 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { grey } from '@mui/material/colors';
+import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 
 export default function WriterPage() {
   return(
@@ -16,7 +17,7 @@ export default function WriterPage() {
 
       <div className="p-10 flex">
 
-        <div className="w-3/5">
+        <div className="w-3/5 pr-10">
           <div className="">
             <div className="flex justify-between">
               <div className="flex gap-2">
@@ -117,11 +118,11 @@ export default function WriterPage() {
           </div>
         </div>
 
-        <div className="w-2/5 h-fit">
+        <div className="w-2/5 h-fit bg-gray-100 rounded-xl">
           <div className="">
             <div className="">
               <div className="flex items-center gap-3 p-5">
-                <img className="w-14 h-auto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+                <img className="w-20 h-auto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
                 <div>
                   <p className="text-xl font-bold">Kenoz</p>
                   <p>프로필 보기</p>
@@ -154,7 +155,7 @@ export default function WriterPage() {
                 </div>
                 <div className="flex flex-col justify-between py-2">
                   <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">기본 정보</div>
-                  <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">기본 정보</div>
+                  <div className="text-sm bg-blue-600 text-white py-1 px-2 rounded-full">경력</div>
                 </div>
               </div>
 
@@ -166,10 +167,14 @@ export default function WriterPage() {
       <div className="p-10">
         <div className="">
             <div className="py-10">
-              <p className="text-3xl font-bold">포트폴리오</p>
+              <div className="flex">
+                <p className="text-3xl font-bold">포트폴리오</p>
+                <EditOutlinedIcon sx={{my: "auto", fontSize: 30}}/>
+              </div>
+              <hr className="border-2 my-3"></hr>
             </div>
         </div>
-        <div className="py-10">
+        <div className="">
           <div className="border-4 border-black h-96"></div>
         </div>
       </div>
