@@ -11,7 +11,7 @@ export default function EmployerPage() {
             <svg class="w-4 h-4 mr-3 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
-            <p className="flex-grow text-xs text-gray-400 truncate">제목 혹은 키워드를 입력해보세요</p>
+            <input className="text-xs w-44" type='text' placeholder='제목 혹은 키워드를 입력해보세요'/>
           </div>
 
           <div class="h-6 pl-5 border-l border-gray-300"></div>
@@ -25,9 +25,11 @@ export default function EmployerPage() {
               </div>
             </div>
 
-            <svg class="fill-current h-4 w-4 flex-shrink-0 ml-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-            </svg>
+            <button>
+              <svg class="fill-current h-4 w-4 flex-shrink-0 ml-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+              </svg>
+            </button>
 
             <div class="h-6 border-l border-gray-300 mx-3"></div>
 
@@ -41,9 +43,11 @@ export default function EmployerPage() {
             </div>
 
           <div class="flex items-center justify-between flex-1 w-full">
-            <svg class="flex-shrink-0 fill-current h-4 w-4 ml-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-            </svg>
+            <button>
+              <svg class="flex-shrink-0 fill-current h-4 w-4 ml-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+              </svg>
+            </button>
             
             <div class="w-20 h-10 px-6 bg-indigo-700 ml-8 mr-6 rounded-full focus:shadow-outline hover:bg-indigo-800"></div>
             
