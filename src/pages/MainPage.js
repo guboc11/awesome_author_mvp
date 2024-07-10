@@ -21,9 +21,12 @@ export default function MainPage() {
               {isLoggedIn 
               ? user == "writer" ? <Link className="text-2xl" to="/mypage/writer">MyPage</Link> : user == "employer" ? <Link className="text-2xl" to="/mypage/employer">MyPage</Link> : <Link className="text-2xl" to="/login">MyPage</Link>
               : <Link className="text-2xl" to="/login">MyPage</Link> }
-              {/* <Link className="text-2xl" to="/">MyPage</Link> */}
-              <Link className="text-2xl" to="/mypage/writer">Writer</Link>
-              <Link className="text-2xl" to="/mypage/employer">Employer</Link>
+              {isLoggedIn 
+              ? <Link className="text-2xl" to="/mypage/writer">Writer</Link>
+              : <Link className="text-2xl" to="/login">Writer</Link>}
+              {isLoggedIn 
+              ? <Link className="text-2xl" to="/mypage/employer">Employer</Link>
+              : <Link className="text-2xl" to="/login">Employer</Link>}
             </div>
           </div>
         </div>

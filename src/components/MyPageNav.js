@@ -3,12 +3,20 @@ import { Link, Outlet } from "react-router-dom";
 import { IconButton } from '@mui/material';
 import { Menu } from '@mui/icons-material';
 import { useAuth } from '../shared/auth';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function MyPageNav() {
-  const {profile, isLoggedIn} = useAuth()
+  const {profile, isLoggedIn, setIsLoggedIn} = useAuth()
+  const navigate = useNavigate()
 
   const logoImagePath = "/penment_logo.jpeg"
+
+  const onClick = () => {
+    setIsLoggedIn(false)
+    navigate("/")
+
+  }
   return (
     <>
       <div className="w-[1024px] mx-auto">
@@ -27,7 +35,7 @@ export default function MyPageNav() {
           <div className="flex items-center mr-10">
             <div className="w-full flex">
               
-              {isLoggedIn ? <p>profile, log out</p> : <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link>}
+              {isLoggedIn ? <button className="bg-gray-800 py-1 px-2 text-lg text-white" onClick={onClick}>Log Out</button> : <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link>}
               {/* <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link> */}
               <div className="h-full my-auto ml-2">
                 <select>
