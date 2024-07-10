@@ -54,14 +54,15 @@ export default function WriterPage() {
               <p className="text-xl font-bold">CJ 엔터테인먼트 드라마 작가 3년차, 웹드라마 '너와나' 대본 작가. 네이버 웹소설 공모전 우수상. 경희대 문예창작학과 졸업</p>
             </div>
             <div className="flex flex-wrap gap-2 ">
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#DataScience</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#Flutter</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#FastApi</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#Python</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#C/C++</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#DeepLearning</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#AI</p>
-              <p className="py-1 px-3 bg-gray-100 rounded-full">#ComputerVision</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#scenarist</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#scriptwriter</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#CJ</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#creative</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#writing</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#KHU</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#teamwork</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#creativity</p>
+              <p className="py-1 px-3 bg-gray-100 rounded-full">#responsibility</p>
             </div>
             <div className="flex my-5 items-center gap-3">
               <button className="py-2 px-3 bg-blue-500 text-white rounded-full flex gap-3">
@@ -87,8 +88,8 @@ export default function WriterPage() {
                 <div className="pb-5">
                   <div className="text-sm bg-blue-600 text-white py-1 px-3 rounded-full">2023.04.05-2023.09.07</div>
                   <div className="text-lg font-bold">SBS 방송국 | 대한민국</div>
-                  <div className="font-bold text-gray-300">R&D | CTO</div>
-                  <div className="font-bold">개발 총괄</div>
+                  <div className="font-bold text-gray-300">방송작가 | 연출</div>
+                  <div className="font-bold">시사/교양 프로그램 ‘유영’ 연출 대본 작가</div>
                 </div>
               </div>
               <div className="flex gap-5 my-1">
@@ -99,8 +100,8 @@ export default function WriterPage() {
                 <div className="pb-5">
                   <div className="text-sm bg-blue-600 text-white py-1 px-3 rounded-full">2023.11.08-2024.01.30</div>
                   <div className="text-lg font-bold">JTBC 드라마 '영혼' | 대한민국</div>
-                  <div className="font-bold text-gray-300">개발 | 데이터사이언티스트</div>
-                  <div className="font-bold">데이터 분석</div>
+                  <div className="font-bold text-gray-300">방송작가 | 대본 | 드라마</div>
+                  <div className="font-bold">JTBC 드라마 ‘영혼’ 극본</div>
                 </div>
               </div>
               <div className="flex gap-5 my-1">
@@ -110,8 +111,8 @@ export default function WriterPage() {
                 <div className="pb-5">
                   <div className="text-sm bg-blue-600 text-white py-1 px-3 rounded-full">2024.03.01-2024.07.01</div>
                   <div className="text-lg font-bold">CJ 엔터 | 대한민국</div>
-                  <div className="font-bold text-gray-300">개발자 | 개발</div>
-                  <div className="font-bold">개발 총괄</div>
+                  <div className="font-bold text-gray-300">방송작가 | 편집</div>
+                  <div className="font-bold">CJ 엔터테인먼트 미디어팀 메인작가</div>
                 </div>
               </div>
             </div>
