@@ -241,8 +241,9 @@ export default function EmployerPage() {
           
         </div>
         <div id="middleRightSection" class="flex flex-col bg-gray text-white flex-[4] p-4">
-          <div class="h-20 mb-3 bg-white-700 border-2 border-indigo-700 rounded-lg">
-            <p className='text-white text-ms'></p>
+          <div class="mb-3">
+            {/* <p className='text-white text-ms'></p> */}
+            <img className="rounded-sm" src="/banner.jpeg"/>
           </div>
   
           <div class="flex-grow overflow-auto bg-white">
