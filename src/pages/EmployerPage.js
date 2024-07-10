@@ -3,9 +3,6 @@ import '../App.css'
 export default function EmployerPage() {
   return(
     <div className="w-[1024px] mx-auto">
-      <section id="topSection" class="py-10 bg-indigo-700 border-b-2 border-white ">
-
-      </section>
       <section id="partnerSection" class="py-20 bg-indigo-700">
         <p className="text-4xl mb-2 text-center font-bold">나와 맞는 파트너 찾기</p>
         <p className="text-1xl mb-2 text-center font-bold">당신에게 적합한 업무와 프로젝트를 찾아보세요</p>
