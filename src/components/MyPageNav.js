@@ -2,9 +2,12 @@ import '../App.css'
 import { Link, Outlet } from "react-router-dom";
 import { IconButton } from '@mui/material';
 import { Menu } from '@mui/icons-material';
+import { useAuth } from '../shared/auth';
 
 
 export default function MyPageNav() {
+  const {profile, isLoggedIn} = useAuth()
+
   const logoImagePath = "/penment_logo.jpeg"
   return (
     <>
@@ -23,7 +26,9 @@ export default function MyPageNav() {
           </div>
           <div className="flex items-center mr-10">
             <div className="w-full flex">
-              <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link>
+              
+              {isLoggedIn ? <p>profile, log out</p> : <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link>}
+              {/* <Link className="bg-gray-800 py-1 px-2 text-lg text-white" to="/login">Login</Link> */}
               <div className="h-full my-auto ml-2">
                 <select>
                   <option value="kr">KR</option>
