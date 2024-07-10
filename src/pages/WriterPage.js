@@ -176,7 +176,9 @@ export default function WriterPage() {
             </div>
         </div>
         <div className="">
-          <div className="border-4 border-black h-96"></div>
+          <div className="border-4 border-black h-96 p-2">
+            <textarea className="h-full w-full text-wrap" type="text"/>
+          </div>
         </div>
       </div>
       
